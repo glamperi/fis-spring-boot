@@ -10,6 +10,6 @@ items:
     tags:
     - from:
         kind: "ImageStreamImage"
-        name: "fis-spring-boot@sha256:33c2d53e96fdb398aae12b8871eb785692a38c93ef00698199d3a7626f699409"
+        name: "fis-spring-boot@sha256:8fae983d3a7839d9a0ae85bb9d7dcb225c7c8609dc7aa494ed5701c7d46f353a"
         namespace: "fis"
       name: "latest"
