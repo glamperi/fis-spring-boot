@@ -3,7 +3,7 @@ apiVersion: "extensions/v1beta1"
 kind: "Deployment"
 metadata:
   annotations:
-    fabric8.io/git-commit: "00fff6df7774f991b31e9feed2513d7b0980ae39"
+    fabric8.io/git-commit: "f885b36e97e07e61ffcd687481506e210f963a6c"
     fabric8.io/iconUrl: "img/icons/camel.svg"
     fabric8.io/git-branch: "master"
     fabric8.io/metrics-path: "dashboard/file/camel-routes.json/?var-project=fis-spring-boot&var-version=1.0-SNAPSHOT"
@@ -23,7 +23,7 @@ spec:
   template:
     metadata:
       annotations:
-        fabric8.io/git-commit: "00fff6df7774f991b31e9feed2513d7b0980ae39"
+        fabric8.io/git-commit: "f885b36e97e07e61ffcd687481506e210f963a6c"
         fabric8.io/iconUrl: "img/icons/camel.svg"
         fabric8.io/git-branch: "master"
         fabric8.io/metrics-path: "dashboard/file/camel-routes.json/?var-project=fis-spring-boot&var-version=1.0-SNAPSHOT"
