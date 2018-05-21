@@ -1,0 +1,25 @@
+---
+apiVersion: "v1"
+kind: "Service"
+metadata:
+  annotations:
+    fabric8.io/git-commit: "2b6583d26af106a00e5d0c7e488056227a0e510e"
+    fabric8.io/iconUrl: "img/icons/camel.svg"
+    fabric8.io/git-branch: "master"
+  labels:
+    expose: "true"
+    provider: "fabric8"
+    project: "fis-spring-boot"
+    version: "1.0-SNAPSHOT"
+    group: "com.apria.fis"
+  name: "fis-spring-boot"
+spec:
+  ports:
+  - name: "http"
+    port: 80
+    protocol: "TCP"
+    targetPort: 8080
+  selector:
+    project: "fis-spring-boot"
+    provider: "fabric8"
+    group: "com.apria.fis"

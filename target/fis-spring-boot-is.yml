@@ -1,0 +1,15 @@
+---
+apiVersion: "v1"
+kind: "List"
+items:
+- apiVersion: "v1"
+  kind: "ImageStream"
+  metadata:
+    name: "fis-spring-boot"
+  spec:
+    tags:
+    - from:
+        kind: "ImageStreamImage"
+        name: "fis-spring-boot@sha256:33c2d53e96fdb398aae12b8871eb785692a38c93ef00698199d3a7626f699409"
+        namespace: "fis"
+      name: "latest"
